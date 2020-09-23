@@ -1,6 +1,6 @@
 {
-  "name": "project-nodejsexpress",
-  "version": "0.0.0",
+  "name": "Project_NodejsExpress_Minimum",
+  "version": "1.22.5",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
@@ -15,10 +15,15 @@
     "js-yaml": "^3.14.0",
     "morgan": "~1.9.1",
     "pug": "2.0.0-beta11",
-    "selenium-webdriver": "^4.0.0-alpha.7"
+    "selenium-webdriver": "^4.0.0-alpha.7",
+    "yarn": "^1.22.5"
   },
   "devDependencies": {
     "config": "^3.3.1",
     "geckodriver": "^1.20.0"
-  }
+  },
+  "main": "index.js",
+  "repository": "y",
+  "author": "y",
+  "license": "y"
 }
