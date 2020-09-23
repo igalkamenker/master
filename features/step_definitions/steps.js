@@ -9,6 +9,7 @@ When(/^I wait for "(.*?)" milliseconds$/, function (milliseconds) {
 
 When(/^User navigate to "(.*?)"$/, async function (input) {
   await this.driver.get(input);
+  await this.driver.sleep(10000);
   console.log('User navigates to:    ' + input);
 });
 
